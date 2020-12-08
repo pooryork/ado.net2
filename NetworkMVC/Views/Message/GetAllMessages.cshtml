@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Entities.Message>
+
+@{
+    ViewBag.Title = "GetAllMessages";
+}
+
+<h2>GetAllMessages</h2>
+
+<form action="/Message/DeleteMessages" method="post" style="margin:5px;">
+    <button type="submit" name="Delete">Delete all messages</button>
+</form>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IDUser)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IDFriend)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MessageValue)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MessageDate)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDUser)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDFriend)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MessageValue)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MessageDate)
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,17 @@
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\NetworkBLL\obj\Debug\NetworkBLL.csprojAssemblyReference.cache
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\NetworkBLL\obj\Debug\NetworkBLL.csproj.CoreCompileInputs.cache
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\NetworkBLL\bin\Debug\NetworkBLL.dll
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\NetworkBLL\bin\Debug\NetworkBLL.pdb
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\NetworkBLL\bin\Debug\Entities.dll
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\NetworkBLL\bin\Debug\INetwork.BLL.dll
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\NetworkBLL\bin\Debug\INetwork.DLL.dll
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\NetworkBLL\bin\Debug\log4net.dll
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\NetworkBLL\bin\Debug\NetworkDLL.dll
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\NetworkBLL\bin\Debug\Entities.pdb
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\NetworkBLL\bin\Debug\INetwork.BLL.pdb
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\NetworkBLL\bin\Debug\INetwork.DLL.pdb
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\NetworkBLL\bin\Debug\NetworkDLL.pdb
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\NetworkBLL\bin\Debug\log4net.xml
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\NetworkBLL\obj\Debug\NetworkBLL.csproj.CopyComplete
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\NetworkBLL\obj\Debug\NetworkBLL.dll
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\NetworkBLL\obj\Debug\NetworkBLL.pdb

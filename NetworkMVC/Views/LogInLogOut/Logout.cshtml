@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Logout";
+}
+
+<h2>Logout</h2>
+@if (IsPost && Request["Logout"].IsEmpty())
+{
+    FormsAuthentication.SignOut();
+    Response.Redirect("/LogInLogOut/Login");
+}
+<h3>
+    Do you really want to log out?
+</h3>
+<form action="/LogInLogOut/Logout" method="post">
+    <button type="submit" name="Logout">Log out</button>
+</form>

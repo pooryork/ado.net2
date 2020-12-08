@@ -1,0 +1,9 @@
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\Entities\bin\Debug\Entities.dll
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\Entities\bin\Debug\Entities.pdb
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\Entities\bin\Debug\log4net.dll
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\Entities\bin\Debug\log4net.xml
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\Entities\obj\Debug\Entities.dll
+C:\Универ\7 семестр\EpamTask-ADO-Tuchin-Final-master\Entities\obj\Debug\Entities.pdb

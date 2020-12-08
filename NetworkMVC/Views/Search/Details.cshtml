@@ -1,0 +1,93 @@
+﻿@model Entities.UserSearch
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>User</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Surname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Surname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Patronymic)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Patronymic)
+        </dd>
+
+        <dt>
+            @Html.DisplayName("Man")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.YearOfBirth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.YearOfBirth)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Town)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Town)
+        </dd>
+
+    </dl>
+</div>
+@{
+    if (!IsPost)
+    {
+        if (ViewBag.isFriend)
+        {
+            <form action="Details" method="post">
+                <input type="hidden" name="idUser" id="idUser" value="@Model.IDUser" />
+                <button type="submit" name="Remove">Remove from friends</button>
+            </form>
+        }
+        else if (!ViewBag.isUserHimself)
+        {
+            <form action="Details" method="post">
+                <input type="hidden" name="idUser" id="idUser" value="@Model.IDUser" />
+                <button type="submit" name="Add" onclick="">Add</button>
+            </form>
+        }
+        else
+        {
+            <h2>It is just you!</h2>
+        }
+    }
+}
